@@ -1,0 +1,93 @@
+@import normalize
+@import section2
+@import button-menu
+*
+	box-sizing border-box
+a
+	color rgba(255, 255, 255, 0.8)
+	text-decoration: underline
+	transition color 0.8s liner
+	&:hover
+		text-decoration none
+		color #fff
+body
+	position relative
+	font-family 'Lato', sans-serif
+	
+.header
+	position absolute
+	width 100%
+	display flex
+	padding 0 10%
+					
+.logo
+	width 129px
+	height 108px
+	&__img
+		// width 100%
+			
+.menu
+	margin-left auto
+	&__list
+		display flex
+		list-style none
+		margin 0
+		padding 0
+		height 100%
+		align-items center
+	&__item
+		margin-right 30px
+		position relative
+	&__link
+		text-decoration none
+		text-transform: uppercase
+		
+label
+	color #fff
+
+.main
+	background-image: url(../img/bg.png)
+	background-size: cover
+	height 100vh
+	color #fff
+	display flex
+	align-items center
+	justify-content center
+	flex-direction column
+	&__title
+		font-family 'Times New Roman'
+		font-size 36px
+		font-weight 700
+		font-style italic
+		letter-spacing 1.8px
+		line-height 30px
+		text-shadow 0px 1px 40px rgba(1, 1, 1, 0.550)
+		color rgba(255, 255, 255, 0.7)
+		text-align center
+		&-big
+			font-family Lato
+			color rgb(255, 255, 255)
+			font-size 100px
+			font-style normal
+			display block
+			text-transform uppercase
+			margin-bottom 40px
+			margin-top 61px
+	&__button
+		font-family Lato
+		color  #ffffff
+		font-size 18px
+		font-weight 700
+		border 3px solid #fff
+		padding 25px 80px
+		text-transform uppercase
+		text-decoration none
+		margin-bottom 40px
+	&__descriptions
+		color rgba(255, 255, 255, 0.7)
+		margin 0
+		font-size 14px
+		font-weight 400
+		line-height 30px
+		text-transform uppercase
+		
