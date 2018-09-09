@@ -13,7 +13,7 @@ module.exports = function() {
 				.on("error", $.gp.notify.onError({
         title: "stile"
       }))
-				.pipe($.gp.csso())
+				// .pipe($.gp.csso())
 				.pipe($.gp.sourcemaps.write())
 				.pipe($.gulp.dest('build/css/'))
 				.pipe($.bs.reload({

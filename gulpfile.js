@@ -10,7 +10,7 @@ global.$ = {
     mainBowerFiles : require('main-bower-files'),
     svgmin: require('gulp-svgmin'),
     cheerio : require('gulp-cheerio'),
-    svgSprite : require("gulp-svg-sprites"),
+    svgSprite : require("gulp-svg-sprite"),
   path : {
   	tasks: require('./gulp/config/tasks.js')
   }
